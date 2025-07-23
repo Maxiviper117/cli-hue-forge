@@ -1,4 +1,3 @@
-
 # 🎨 generate-shades-from-css
 
 ![npm](https://img.shields.io/npm/v/cli-hue-forge?style=flat-square)
@@ -91,7 +90,18 @@ Output:
 }
 ```
 
-
+### Light/Dark Theme Setup 🌗
+To enable the `light-dark()` functionality and apply your generated theme variables based on user preference, add the following snippet to your main CSS file. This toggles the `data-theme` attribute on `<html>` and sets the `color-scheme` property so built-in UI elements adapt correctly:
+```css
+@layer base {
+  html[data-theme="light"] {
+    color-scheme: light;
+  }
+  html[data-theme="dark"] {
+    color-scheme: dark;
+  }
+}
+```
 
 #### Output to file 💾
 ```sh
