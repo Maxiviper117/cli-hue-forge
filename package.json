@@ -8,9 +8,21 @@
     "hueforge": "./index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "changeset": "pnpm exec changeset",
+  "changeset:add": "pnpm exec changeset add",
+  "changeset:version": "pnpm exec changeset version",
+  "changeset:publish": "pnpm exec changeset publish"
   },
-  "keywords": ["cli", "css", "color", "oklch", "theme", "generator", "shades"],
+  "keywords": [
+    "cli",
+    "css",
+    "color",
+    "oklch",
+    "theme",
+    "generator",
+    "shades"
+  ],
   "author": "Maxiviper117",
   "license": "MIT",
   "repository": {
@@ -31,5 +43,8 @@
   "dependencies": {
     "commander": "^14.0.0",
     "culori": "^4.0.2"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.29.5"
   }
 }
