@@ -6,7 +6,11 @@
 ![issues](https://img.shields.io/github/issues/maxiviper117/cli-hue-forge?style=flat-square)
 ![node](https://img.shields.io/node/v/cli-hue-forge?style=flat-square)
 
+
 Generate OKLCH color shade ladders from CSS custom properties for modern theming. 🌈
+
+**Designed for Tailwind CSS v4:**
+This CLI generates an `@theme { ... }` block, which is the new convention for theming in Tailwind CSS v4. However, you can use the generated CSS variables in any CSS workflow, framework, or vanilla CSS as you like.
 
 ## ✨ Features
 - 🔍 Parses CSS files for variables starting with `--generate-color-...`
