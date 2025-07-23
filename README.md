@@ -1,6 +1,11 @@
 
 # 🎨 generate-shades-from-css
 
+![npm](https://img.shields.io/npm/v/cli-hue-forge?style=flat-square)
+![license](https://img.shields.io/github/license/maxiviper117/cli-hue-forge?style=flat-square)
+![issues](https://img.shields.io/github/issues/maxiviper117/cli-hue-forge?style=flat-square)
+![node](https://img.shields.io/node/v/cli-hue-forge?style=flat-square)
+
 Generate OKLCH color shade ladders from CSS custom properties for modern theming. 🌈
 
 ## ✨ Features

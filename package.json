@@ -8,11 +8,11 @@
     "hueforge": "./index.js"
   },
   "scripts": {
-  "test": "echo \"Error: no test specified\" && exit 1",
-  "changeset": "pnpm exec changeset",
-  "changeset:add": "pnpm exec changeset add",
-  "changeset:version": "pnpm exec changeset version",
-  "changeset:publish": "pnpm exec changeset publish"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "changeset": "pnpm exec changeset",
+    "changeset:add": "pnpm exec changeset add",
+    "changeset:version": "pnpm exec changeset version",
+    "changeset:publish": "pnpm exec changeset publish"
   },
   "keywords": [
     "cli",
