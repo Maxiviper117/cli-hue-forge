@@ -1,11 +1,4 @@
-// generate-shades-from-css.js
-// --------------------------------------------------------
-// Parse a .css file for variables that start with "--generate-color-".
-// For each variable discovered, output a @theme block that defines
-// a ladder of OKLCH lightness steps named like:
-//   --color-{name}-{step}
-// where {step} is a lightness percentage such as 98, 95, 90, ... 10.
-// --------------------------------------------------------
+#!/usr/bin/env node
 
 import fs from "node:fs";
 import { Command } from "commander";
