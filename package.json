@@ -1,0 +1,35 @@
+{
+  "name": "cli-hue-forge",
+  "version": "1.0.0",
+  "description": "Generate OKLCH color shade ladders from CSS custom properties.",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "hueforge": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["cli", "css", "color", "oklch", "theme", "generator", "shades"],
+  "author": "Maxiviper117",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxiviper117/cli-hue-forge.git"
+  },
+  "homepage": "https://github.com/maxiviper117/cli-hue-forge#readme",
+  "bugs": {
+    "url": "https://github.com/maxiviper117/cli-hue-forge/issues"
+  },
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "packageManager": "pnpm@10.13.1",
+  "dependencies": {
+    "commander": "^14.0.0",
+    "culori": "^4.0.2"
+  }
+}
