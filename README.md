@@ -35,6 +35,15 @@ pnpm install
 
 ## ⚡ Usage
 
+### Run without install (npx / pnpm dlx) 🚀
+You can use the CLI without installing globally:
+
+```sh
+npx cli-hue-forge -i theme.css
+# or
+pnpm dlx cli-hue-forge -i theme.css
+```
+
 
 ### CLI 🖥️
 ```sh
